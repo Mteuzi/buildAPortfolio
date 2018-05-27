@@ -1,0 +1,129 @@
+/* color pallette
+#02b3e4 light blue
+#2d3c49 dark grey;
+#7d97ad light grey */
+
+#container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#devName {
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#name > h4 {
+    margin-top: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#headerLogo {
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 120px;
+    background-image: url(/images/AdobeStock_188996506%20%5BConverted%5D.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain
+}
+
+#headerRule {
+    background-color: #7d97ad;
+    height: 5px;
+    width: 100%;
+    margin: 0;
+}
+
+#name {
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#heroPic {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#featuredWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.sectionTitle {
+    width: 100%;
+    
+    display: block;
+    color: #7d97ad;
+    font-size: 2em;
+}
+
+.project {
+    text-align: center;
+    margin: auto;
+}
+
+#project1 {
+    width: 280px;
+    height: 200px;
+    background-image: url(/images/AdobeStock_78672311@0,1x.jpg);
+}
+
+#project2 {
+    width: 280px;
+    height: 200px;
+    background-image: url(/images/AdobeStock_93279228@0,1x.jpg);
+}
+
+#project3 {
+    width: 280px;
+    height: 200px;
+    background-image: url(/images/AdobeStock_204226889@0,1x.jpg);
+}
+
+@media screen and (max-width: 575px) {
+    #featuredWork {
+        justify-content: space-around;
+    }
+    
+    .sectionTitle {
+        text-align: center;
+    }
+    
+    #devName {
+        font-size: 2em;
+    }
+    
+    #headerLogo img {
+        max-width: 75px;
+    }
+    
+    #headerLogo {
+    margin-top: 10px;
+}
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 860px) {
+    #featuredWork {
+        justify-content: space-around;
+    }
+    
+    .sectionTitle {
+        text-align: center;
+    }
+}
