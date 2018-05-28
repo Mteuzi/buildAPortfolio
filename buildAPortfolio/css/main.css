@@ -32,7 +32,7 @@ header {
     margin-top: 15px;
     margin-bottom: 0;
     width: 120px;
-    background-image: url(../images/AdobeStock_188996506%20%5BConverted%5D.png);
+    background-image: url(/../images/AdobeStock_188996506%20%5BConverted%5D.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain
@@ -66,8 +66,6 @@ header {
 
 .sectionTitle {
     width: 100%;
-    
-    display: block;
     color: #7d97ad;
     font-size: 2em;
 }
@@ -113,8 +111,8 @@ header {
     }
     
     #headerLogo {
-    margin-top: 10px;
-}
+        margin-top: 10px;
+    }
 
 }
 
