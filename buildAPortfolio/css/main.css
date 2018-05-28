@@ -32,7 +32,7 @@ header {
     margin-top: 15px;
     margin-bottom: 0;
     width: 120px;
-    background-image: url(/images/AdobeStock_188996506%20%5BConverted%5D.png);
+    background-image: url(../images/AdobeStock_188996506%20%5BConverted%5D.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain
@@ -80,19 +80,19 @@ header {
 #project1 {
     width: 280px;
     height: 200px;
-    background-image: url(/images/AdobeStock_78672311@0,1x.jpg);
+    background-image: url(../images/AdobeStock_78672311@0,1x.jpg);
 }
 
 #project2 {
     width: 280px;
     height: 200px;
-    background-image: url(/images/AdobeStock_93279228@0,1x.jpg);
+    background-image: url(../images/AdobeStock_93279228@0,1x.jpg);
 }
 
 #project3 {
     width: 280px;
     height: 200px;
-    background-image: url(/images/AdobeStock_204226889@0,1x.jpg);
+    background-image: url(../images/AdobeStock_204226889@0,1x.jpg);
 }
 
 @media screen and (max-width: 575px) {
